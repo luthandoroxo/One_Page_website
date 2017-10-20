@@ -1,20 +1,55 @@
-#heading{
-	list-style-type: none;
+body{
+	background: linear-gradient(to bottom, #f08183 38%, 
+#fbe3e3 73%)
+}
+
+.wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	max-height: 1100px;
+
+	padding-right: 10px;
+	padding-left: 10px;
+	background-image: url("/home/quirky30/One_Page_website/images/download.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.Heading{
 	text-align: center;
 	background-color: #666666;
 	color: white;
-	width: 100%; 
-	height: 50px
-	padding-top: 100px;
+	font-size: 20px; 
+	height: 85px
+	margin-top: 40px;
+	padding-top: 0.5px;
+	
+}
+
+#logo{
+	height: 85px;
+	width: 350px;
+	margin-left: 10px;
+	overflow: hidden;
+	position: fixed;
+	margin-top: 15px;
 }
 
 .column{
 	float: left;
 	width: 30%;
 	height: 400px;
-	padding-top: 150px;
+	padding-top: 50px;
 	margin: 0 15px;
 	text-align: center;
+}
+
+.article{
+	text-align: center;
+	padding-bottom: 150px;
+
 }
 
 body{
@@ -25,7 +60,8 @@ body{
 ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #666666;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
@@ -50,6 +86,51 @@ li a {
 
 nav li a:hover:not(.active) {
     background-color: #eeeeee;
+
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
 }
 
 
+footer{
+	background-color: #171717;
+	text-transform: uppercase;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0.5px;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500px;
+
+
+}
+
+.copyright{
+	font-family: Raleway;
+	float: left;
+}
+
+.message{
+	font-family: Raleway;
+	float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name{
+	color: #F15B31;
+	font-weight: 700px;
+
+}
