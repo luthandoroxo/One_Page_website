@@ -57,6 +57,10 @@ body{
 	margin: 0;
 }
 
+p{
+	text-align: justify;
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -129,8 +133,9 @@ footer{
   font-size: 0;
 }
 
-.name{
+.name a {
 	color: #F15B31;
 	font-weight: 700px;
+	text-decoration: none;
 
 }
